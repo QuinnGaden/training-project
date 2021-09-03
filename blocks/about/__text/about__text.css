@@ -1,0 +1,14 @@
+.about__text { 
+  font-family: 'prompt';
+  margin: 0;
+  padding: 0;
+  max-width: 700px;
+  color: #0A0A0A;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  grid-column: 2/3;
+  z-index: 1; 
+  align-self: center;
+}
