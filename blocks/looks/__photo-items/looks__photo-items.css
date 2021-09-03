@@ -1,0 +1,7 @@
+.looks__photo-items {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  margin: 0;
+  padding: 40px 0 0 0;
+}
