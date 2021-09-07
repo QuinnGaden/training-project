@@ -1,6 +1,0 @@
-.about {  
-  grid-row-gap: 80px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: max-content max-content max-content;
-}
