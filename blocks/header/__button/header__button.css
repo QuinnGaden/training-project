@@ -1,0 +1,21 @@
+.header__button {  
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 12px 30px;
+  max-width: 350px;
+  max-height: 48px;
+  box-sizing: border-box;
+  background-color: #0A0A0A;
+  border: 1px solid #0A0A0A;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
