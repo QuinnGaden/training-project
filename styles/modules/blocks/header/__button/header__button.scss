@@ -19,3 +19,9 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+  .header__button {
+    max-width: 350px;
+  }
+}
