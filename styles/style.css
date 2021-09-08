@@ -64,7 +64,6 @@
   max-height: 48px;
   box-sizing: border-box;
   background-color: #0A0A0A;
-  border: 1px solid #0A0A0A;
   color: #fff;
   font-style: normal;
   font-weight: 500;
@@ -72,6 +71,13 @@
   line-height: 24px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__button:hover {
+  background-color: #FFFFFF;
+  color: #0A0A0A;
+  border: 1px solid #0A0A0A;
 }
 
 .header__menubtn {
