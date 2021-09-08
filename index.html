@@ -8,16 +8,48 @@
   <title></title>
 </head>
 <body class= "page">
+  <!-- Header -->
   <header class= "header page__section">
     <img class= "header__image" src="./image/header_img.png" alt="Mettew M. Williams">
-    <img class= "header__menu" src="./image/header_menu.svg" alt="Menu">
+    <button class= "header__menubtn"><svg class= "header__menu-image" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class= "header__menu-image" d="M4 24H44" stroke="#0A0A0A" stroke-width="3" stroke-linecap="square" stroke-linejoin="round" />
+      <path class= "header__menu-image" d="M4 12H44" stroke="#0A0A0A" stroke-width="3" stroke-linecap="square" stroke-linejoin="round" />
+      <path class= "header__menu-image" d="M4 36H44" stroke="#0A0A0A" stroke-width="3" stroke-linecap="square" stroke-linejoin="round" />
+      </svg>MENU</button>
+      <!-- Menu-->
+      <div class= "menu">
+        <button class= "menu__closebtn"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="48" fill="#E5E5E5"/>
+          <rect width="1440" height="810" transform="translate(-20 -20)" fill="black" fill-opacity="0.4"/>
+          <path d="M9.85785 34L38.1421 5.71573" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M9.85785 6L38.1421 34.2843" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect width="480" height="810" transform="translate(-20 -20)" fill="black"/>
+          <path d="M9.85785 38L38.1421 9.71573" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/>
+          <path d="M9.85785 10L38.1421 38.2843" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/>
+          </svg></button>
+        <nav class= "menu__nav">
+          <ul class= "menu__items">
+            <li class= "menu__item">
+              <a class= "menu__link" href= "#about">About</a>
+            </li>
+            <li li class= "menu__item">
+              <a class= "menu__link" href= "#looks">looks</a> 
+            </li>
+            <li li class= "menu__item">
+              <a class= "menu__link" href= "#subscribe">subscribe</a> 
+            </li>
+          </ul>
+        </nav>
+      </div>      
     <div class= "header__group">
       <h1 class= "header__title">GIVENCHY SPRING&nbsp;SUMMER&nbsp;2021 BY&nbsp;MATTHEW M. WILLIAMS</h1>
-      <button class= "header__button">Subscribe&nbsp;to&nbsp;collection’s&nbsp;news</button>
+      <a class= "header__button" href= "#subscribe">Subscribe&nbsp;to&nbsp;collection’s&nbsp;news</a>
     </div>
   </header>
+  <!-- Body  -->
   <main class= "content">
-    <section class= "about page__section page__section_place_about">            
+    <!-- About -->
+    <section class= "about page__section page__section_place_about" id= "about">            
       <h2 class= "about__title">About</h2>
       <p class= "about__text">The Spring-Summer ‘21 collection explores Givenchy in the form of a stream of consciousness for 
         Williams and is a ‘sampler’ of what is to come.</p>
@@ -42,7 +74,8 @@
         <p class= "about__name">Matthew M. Williams.</p>            
       </div>
     </section>
-    <section class= "looks page__section page__section_place_looks">
+    <!-- Looks -->
+    <section class= "looks page__section page__section_place_looks" id= "looks">
       <h2 class= "looks__title">Looks</h2>      
       <ul class= "looks__photo-items">
         <li class= "looks__photo-item">
@@ -72,14 +105,14 @@
       </ul>
     </section>
   </main>
-  <footer class= "footer page__section page__section_place_footer ">
+  <!-- Footer -->
+  <footer class= "footer page__section page__section_place_footer" id= "subscribe">
     <h2 class= "footer__title">Subscribe to the newsletterand be the first to know about new collection’s drop date and news</h2>
     <div class= "footer__container">
       <input class= "footer__input" placeholder= "Eneter your email  here">
       <button class= "footer__button">SUBMIT</button>
     </div>
-    <div class= "footer__check-container">
-      
+    <div class= "footer__check-container">      
       <label class= "footer__text" > 
         <input class= "footer__checkbox"  type= "checkbox" checked>  
         <span class= "footer__visible-checkbox"></span>             
@@ -88,5 +121,7 @@
     </div>
     <p class= "footer__coopyright">&#169; 2021, Givenchy. Some rights reserved</p>
   </footer>
+  
+  <script src="./scripts/script.js"></script>
 </body>
 </html>
