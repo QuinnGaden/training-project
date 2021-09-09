@@ -7,3 +7,9 @@
     padding: 60px 20px 0 20px;
   }
 }
+
+@media (max-width: 320px) {
+  .page__section_place_about {
+    padding: 40px 20px 0 20px;
+  }
+}

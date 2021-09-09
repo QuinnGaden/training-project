@@ -16,3 +16,10 @@
     line-height: 40px;
   }
 }
+
+@media (max-width: 320px) {
+  .header__title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
