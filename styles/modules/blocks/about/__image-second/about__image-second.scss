@@ -3,3 +3,10 @@
   grid-row: 3/4;
   max-width: 618px;
 }
+
+@media (max-width: 768px) {
+  .about__image-second  {
+    max-width: 304px;
+    margin: 11% 0 0 0;    
+  }
+}

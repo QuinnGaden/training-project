@@ -5,3 +5,10 @@
   z-index: -1;
   margin: 0 0 0 37.6%;
 }
+
+@media (max-width: 768px) {
+  .about__image-first {
+    max-width: 364px;
+    margin: 6.8% 0 0 33.4%;    
+  }
+}

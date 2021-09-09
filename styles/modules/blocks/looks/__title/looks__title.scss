@@ -10,3 +10,10 @@
   text-transform: uppercase;
   color: #0A0A0A;
 }
+
+@media (max-width: 768px) {
+  .looks__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
