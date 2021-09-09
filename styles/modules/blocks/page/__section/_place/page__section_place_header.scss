@@ -1,0 +1,9 @@
+.page__section_place_header {
+  padding: 0px 20px 0 24px;  
+}
+
+@media (max-width: 768px) {
+  .page__section_place_header {
+    padding: 0;
+  }
+}

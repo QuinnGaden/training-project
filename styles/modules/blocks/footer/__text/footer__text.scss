@@ -8,6 +8,11 @@
   line-height: 24px;
   color: #FFFFFF;
   max-width: 668px;
-  display: flex;
-  
+  display: flex;  
+}
+
+@media (max-width: 768px) {
+  .footer__text {
+    max-width: 454px;
+  }
 }

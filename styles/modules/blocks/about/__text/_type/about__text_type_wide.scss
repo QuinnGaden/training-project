@@ -2,6 +2,11 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-  letter-spacing: 0.02em;
-  
+  letter-spacing: 0.02em;  
+}
+
+@media (max-width: 768px) {
+  .about__text_type_wide {
+    max-width: 364px;
+  }
 }
