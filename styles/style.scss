@@ -13,7 +13,8 @@
 @import '../styles/modules/blocks/header/__title/header__title.scss';
 @import '../styles/modules/blocks/header/__group/header__group.scss';
 @import '../styles/modules/blocks/header/__button/header__button.scss';
-@import '../styles/modules/blocks/header/__menu/header__menu.scss';
+@import '../styles/modules/blocks/header/__menu/header__menubtn.scss';
+@import '../styles/modules/blocks/header/__menu-image/header__menu-image.scss';
 /* about */
 @import '../styles/modules/blocks/about/about.scss';
 @import '../styles/modules/blocks/about/__group/about__group.scss';
@@ -45,3 +46,11 @@
 @import '../styles/modules/blocks/footer/__checkbox/footer__checkbox.scss';
 @import '../styles/modules/blocks/page/__section/_place/page__section_place_footer.scss';
 @import '../styles/modules/blocks/footer/__visible-checkbox/footer__visible-checkbox.scss';
+// menu
+@import '../styles/modules/blocks/menu/menu.scss';
+@import '../styles/modules/blocks/menu/__nav/menu__nav.scss';
+@import '../styles/modules/blocks/menu/__items/menu__items.scss';
+@import '../styles/modules/blocks/menu/__item/menu__item.scss';
+@import '../styles/modules/blocks/menu/__link/menu__link.scss';
+@import '../styles/modules/blocks/menu/__closebtn/menu__closebtn.scss';
+@import '../styles/modules/blocks/menu/__active/menu__active.scss';
