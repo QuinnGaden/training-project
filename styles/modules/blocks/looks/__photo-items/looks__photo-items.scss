@@ -13,3 +13,10 @@
     grid-auto-rows: 0;
   }
 }
+
+@media (max-width: 320px) {
+  .looks__photo-items {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));    
+    grid-auto-rows: auto;
+  }
+}

@@ -10,6 +10,11 @@
 
 .footer__button:hover {
   background: #000000;
-  color: #FFFFFF;
-  
+  color: #FFFFFF;  
+}
+
+@media (max-width: 320px) {
+  .footer__button {    
+    width: 280px;
+  }
 }

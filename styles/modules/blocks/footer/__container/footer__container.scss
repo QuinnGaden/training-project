@@ -11,3 +11,10 @@
     max-width: 486px;
   }
 }
+
+@media (max-width: 320px) {
+  .footer__container {
+    flex-direction: column;
+    max-width: 280px;
+  }
+}
