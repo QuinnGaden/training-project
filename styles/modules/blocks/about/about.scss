@@ -4,3 +4,9 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: max-content max-content max-content;
 }
+
+@media (max-width: 768px) {
+  .about {
+    grid-row-gap: 70px;
+  }
+}

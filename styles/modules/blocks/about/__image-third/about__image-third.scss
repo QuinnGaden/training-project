@@ -3,7 +3,12 @@
   grid-row: 4/5;
   max-width: 875px;
   z-index: -1;
-  margin: 0 0 0 37.6%;
-  
-  
+   
+}
+
+@media (max-width: 768px) {
+  .about__image-third {
+    max-width: 485px; 
+    margin: 6.9% 0 0 33.4%;  
+  }
 }

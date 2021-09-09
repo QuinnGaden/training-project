@@ -12,3 +12,9 @@
   z-index: 1; 
   align-self: center;
 }
+
+@media (max-width: 768px) {
+  .about__text {
+    max-width: 364px;
+  }
+}

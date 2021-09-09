@@ -10,3 +10,9 @@
   color: #FFFFFF;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .footer__title {
+    max-width: 486px;
+  }
+}
