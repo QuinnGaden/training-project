@@ -480,11 +480,11 @@
 }
 
 .looks__photo-item {
-  animation: fadeIn 5s infinite;
-  -webkit-animation: fadeIn 5s infinite;
-  -moz-animation: fadeIn 5s infinite;
-  -o-animation: fadeIn 5s infinite;
-  -ms-animation: fadeIn 5s infinite;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
 }
 
 @keyframes fadeIn {
@@ -711,6 +711,7 @@
   background-color: #000000;
   box-sizing: border-box;
   padding: 313px 20px 265px;
+  width: 480px;
 }
 
 @media (max-width: 320px) {
