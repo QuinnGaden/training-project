@@ -10,3 +10,9 @@
     margin: 11% 0 0 0;    
   }
 }
+
+@media (max-width: 320px) {
+  .about__image-second  {
+    margin: 40px 0 20px 0;  
+  }
+}

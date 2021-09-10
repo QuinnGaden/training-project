@@ -8,3 +8,9 @@
   list-style-type: none;
   width: 440px;
 }
+
+@media (max-width: 320px) {
+  .menu__items {
+    width: 320px;
+  }
+}

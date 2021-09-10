@@ -3,3 +3,9 @@
   flex-direction: row;
   padding: 20px 0 0 0;
 }
+
+@media (max-width: 320px) {
+  .footer__check-container {
+    max-width: 280px;
+  }
+}

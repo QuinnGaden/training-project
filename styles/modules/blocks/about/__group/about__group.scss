@@ -1,6 +1,12 @@
 .about__group {
   grid-column: 1/2;
   grid-row: 2/3;
-  align-self: center;
-  
+  align-self: center;  
+}
+
+@media (max-width: 320px) {
+  .about__group {    
+    
+    
+  }
 }

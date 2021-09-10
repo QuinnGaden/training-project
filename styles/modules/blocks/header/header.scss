@@ -6,3 +6,9 @@
   align-items: center;  
   background-color: #e7e7e2;
 }
+
+@media (max-width: 320px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+}

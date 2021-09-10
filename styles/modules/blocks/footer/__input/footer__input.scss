@@ -14,3 +14,9 @@
     max-width: 378px;
   }
 }
+
+@media (max-width: 320px) {
+  .footer__input {
+    max-width: 280px;
+  }
+}
