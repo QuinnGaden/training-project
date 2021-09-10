@@ -479,12 +479,18 @@
   display: flex;
 }
 
-.looks__photo-item {
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
+.looks__photo-mage {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.looks__animation_type-fade-in {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
 }
 
 @keyframes fadeIn {
@@ -503,12 +509,39 @@
     opacity: 1;
   }
 }
-.looks__photo-mage {
-  max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.looks__animation_type-fade-out {
+  animation: fadeOut 1s;
+  -webkit-animation: fadeOut 1s;
+  -moz-animation: fadeOut 1s;
+  -o-animation: fadeOut 1s;
+  -ms-animation: fadeOut 1s;
 }
 
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 /* footer */
 .footer {
   display: flex;
@@ -711,7 +744,6 @@
   background-color: #000000;
   box-sizing: border-box;
   padding: 313px 20px 265px;
-  width: 480px;
 }
 
 @media (max-width: 320px) {
