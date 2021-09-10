@@ -5,4 +5,17 @@
   align-self: left;
   justify-content: left;
   background-color: #E5E5E5;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 320px) {
+  .menu {
+    max-width: 320px;
+  }
 }
