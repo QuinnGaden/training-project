@@ -193,6 +193,11 @@
   text-decoration: none;
 }
 
+.header__button:hover {
+  background-color: #FFFFFF;
+  color: #0A0A0A;
+}
+
 @media (max-width: 768px) {
   .header__button {
     max-width: 350px;
@@ -352,6 +357,7 @@
     max-width: 280px;
     font-size: 20px;
     line-height: 28px;
+    letter-spacing: 0;
   }
 }
 .about__text_place_third {
@@ -714,8 +720,8 @@
   cursor: pointer;
 }
 
-.footer__button:hover {
-  background: #000000;
+.footer__button:not([disabled]):hover {
+  background: #0A0A0A;
   color: #FFFFFF;
 }
 

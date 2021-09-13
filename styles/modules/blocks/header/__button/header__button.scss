@@ -22,6 +22,11 @@
   text-decoration: none;
 }
 
+.header__button:hover {  
+  background-color: #FFFFFF;
+  color: #0A0A0A;
+}
+
 @media (max-width: 768px) {
   .header__button {
     max-width: 350px;

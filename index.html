@@ -108,17 +108,20 @@
   <!-- Footer -->
   <footer class= "footer page__section page__section_place_footer" id= "subscribe">
     <h2 class= "footer__title">Subscribe to the newsletterand be the first to know about new collection’s drop date and news</h2>
-    <div class= "footer__container">
-      <input class= "footer__input" placeholder= "Eneter your email  here">
-      <button class= "footer__button" type= "submit">SUBMIT</button>
-    </div>
-    <div class= "footer__check-container">      
-      <label class= "footer__text" > 
-        <input class= "footer__checkbox"  type= "checkbox" checked>  
-        <span class= "footer__visible-checkbox"></span>             
-         I consent to the processing of my data by GIVENCHY 
-        in accordance with the conditions set forth in the Privacy Policy</label>
-    </div>
+    <form class = "footer__form" method= "POST" name= "email">   
+      <div class= "footer__container">
+        <input class= "footer__input" placeholder= "Eneter your email  here" disabled>
+        <button class= "footer__button" type= "submit" disabled>SUBMIT</button>
+      </div>
+      <div class= "footer__check-container">           
+        <label class= "footer__text" > 
+          <input class= "footer__checkbox" type= "checkbox" >  
+          <span class= "footer__visible-checkbox"></span>             
+          I consent to the processing of my data by GIVENCHY 
+          in accordance with the conditions set forth in the Privacy Policy
+        </label>       
+      </div>
+    </form>
     <p class= "footer__coopyright">&#169; 2021, Givenchy. Some rights reserved</p>
   </footer>  
   <script src="./scripts/script.js"></script>  
