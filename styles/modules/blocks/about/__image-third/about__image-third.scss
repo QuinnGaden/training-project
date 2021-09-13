@@ -6,14 +6,48 @@
   margin: 0 0 0 37.5%;
 }
 
-@media (max-width: 768px) {
+// @media (max-width: 1439px) {
+//   .about__image-third {
+//     max-width: 485px; 
+//     margin: 6.9% 0 0 33.4%;  
+//   }
+// }
+
+@media (max-width: 1439px) {
   .about__image-third {
-    max-width: 485px; 
-    margin: 6.9% 0 0 33.4%;  
+    max-width: 700px; 
+    margin: 0 0 0 32.4%;  
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1090px) {
+  .about__image-third {    
+    margin: 6.8% 0 0 20.4%;    
+  }
+}
+
+@media (max-width: 900px) {
+  .about__image-third {
+    max-width: 485px;
+    margin: 6.8% 0 0 33.4%;    
+  }
+}
+
+@media (max-width: 767px) {
+  .about__image-third {
+    max-width: 485px;
+    margin: 0 0 0 15.4%;    
+  }
+}
+
+@media (max-width: 620px) {
+  .about__image-third {
+    max-width: 485px;
+    margin: 0;    
+  }
+}
+
+@media (max-width: 500px) {
   .about__image-third {
     max-width: 280px; 
     margin: 40px 0 20px 0;   

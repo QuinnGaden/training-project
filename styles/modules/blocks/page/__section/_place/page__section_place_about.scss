@@ -1,15 +1,22 @@
 .page__section_place_about {
-  padding: 80px 20px 0 20px;
+  padding-top: 80px;
+  // padding: 80px 20px 0 20px;
+}
+@media (max-width: 1421px) {
+  .page__section_place_about {
+    max-width: 1080px;
+    padding-top: 60px;
+  }
 }
 
 @media (max-width: 768px) {
   .page__section_place_about {
-    padding: 60px 20px 0 20px;
+    padding-top: 60px;
   }
 }
 
 @media (max-width: 320px) {
   .page__section_place_about {
-    padding: 40px 20px 0 20px;
+    padding-top: 40px;
   }
 }

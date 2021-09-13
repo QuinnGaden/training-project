@@ -5,13 +5,13 @@
   letter-spacing: 0.02em;  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .about__text_type_wide {
     max-width: 364px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .about__text_type_wide {
     max-width: 280px;
     font-size: 20px;
