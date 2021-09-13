@@ -23,7 +23,7 @@ let array = [
   "./image/looks_item8.png",
 ];
 let delay = 300; 
-let image = document.querySelectorAll(".looks__photo-mage"); 
+let image = document.querySelectorAll(".looks__photo-image"); 
 function imageRotation() {  
   image.forEach (function () {    
     image[i].src = `${array[Math.floor(Math.random() * 8)]}`;

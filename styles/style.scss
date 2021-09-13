@@ -1,6 +1,8 @@
 // vendor
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+// veriables
+@import '../styles/modules/veriables.scss';
 /* page */
 @import '../styles/modules/blocks/page/page.scss';
 @import '../styles/modules/blocks/page/__section/page__section.scss';
@@ -33,7 +35,7 @@
 @import '../styles/modules/blocks/looks/__title/looks__title.scss';
 @import '../styles/modules/blocks/looks/__photo-items/looks__photo-items.scss';
 @import '../styles/modules/blocks/looks/__photo-item/looks__photo-item.scss';
-@import '../styles/modules/blocks/looks/__photo-mage/looks__photo-image.scss';
+@import '../styles/modules/blocks/looks/__photo-image/looks__photo-image.scss';
 @import '../styles/modules/blocks/looks/__animation/_type/looks__animation_type-fade-in.scss';
 @import '../styles/modules/blocks/looks/__animation/_type/looks__animation_type-fade-out.scss';
 /* footer */
