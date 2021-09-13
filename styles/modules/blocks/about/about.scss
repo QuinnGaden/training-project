@@ -5,13 +5,13 @@
   grid-template-rows: max-content max-content max-content;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .about {
     grid-row-gap: 70px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .about {     
     grid-row-gap: 0;  
     display: flex;   
