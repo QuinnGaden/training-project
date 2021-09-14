@@ -67,12 +67,12 @@ const aboutGroup = document.querySelectorAll('.about__group');
 console.log(aboutText)
 function animationText() {
   title.classList.add('about__animation_type_fade-in-left');  
-  aboutText.classList.add('about__animation_type_fade-in-right');  
-  text.classList.add('about__animation_type_fade-in-right');
-  img1.classList.add('about__animation_type_fade-in-right');
+  aboutText.classList.add('about__animation_type_fade-in-right');
+  aboutGroup[0].classList.add('about__animation_type_fade-in-left'); 
+  img1.classList.add('about__animation_type_fade-in-right'); 
   img2.classList.add('about__animation_type_fade-in-left');
-  img3.classList.add('about__animation_type_fade-in-right');
-  aboutGroup[0].classList.add('about__animation_type_fade-in-left');
-  aboutGroup[1].classList.add('about__animation_type_fade-in-left');
+  text.classList.add('about__animation_type_fade-in-right');
+  aboutGroup[1].classList.add('about__animation_type_fade-in-left');  
+  img3.classList.add('about__animation_type_fade-in-right');  
 };
 animationText();
