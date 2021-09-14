@@ -56,3 +56,23 @@ checkBox.addEventListener('change', (eve) => {
   footerBtn.disabled = !eve.target.checked;
 });
 
+// Анимация блока about
+const title = document.querySelector('.about__title');
+const aboutText = document.querySelector('.about__text');
+const text = document.querySelector('.about__text_place_third');
+const img1 = document.querySelector('.about__image-first');
+const img2 = document.querySelector('.about__image-second');
+const img3 = document.querySelector('.about__image-third');
+const aboutGroup = document.querySelectorAll('.about__group');
+console.log(aboutText)
+function animationText() {
+  title.classList.add('about__animation_type_fade-in-left');  
+  aboutText.classList.add('about__animation_type_fade-in-right');  
+  text.classList.add('about__animation_type_fade-in-right');
+  img1.classList.add('about__animation_type_fade-in-right');
+  img2.classList.add('about__animation_type_fade-in-left');
+  img3.classList.add('about__animation_type_fade-in-right');
+  aboutGroup[0].classList.add('about__animation_type_fade-in-left');
+  aboutGroup[1].classList.add('about__animation_type_fade-in-left');
+};
+animationText();
