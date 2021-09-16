@@ -35,13 +35,13 @@ function imageRotation() {
   image.forEach (function () {    
     image[i].src = `${array[Math.floor(Math.random() * 8)]}`;
     image[i].classList.add('looks__animation_type-fade-in');
-    setTimeout ( () => image[i].classList.add('looks__animation_type-fade-out'),100); 
-    setTimeout ( () => image[i].classList.remove('looks__animation_type-fade-out'),200);
-    setTimeout ( () => image[i].classList.remove('looks__animation_type-fade-in'),200);
+    setTimeout ( () => image[i].classList.add('looks__animation_type-fade-out'),300); 
+    image[i].classList.remove('looks__animation_type-fade-out');
+    setTimeout ( () => image[i].classList.remove('looks__animation_type-fade-in'),300);
   });  
   i++;
   if (i === array.length) i = 0;   
-  setTimeout("imageRotation(" + i + ")", delay);
+  setTimeout("imageRotation(" + i + ")", 1000);
 }
 
 imageRotation();
