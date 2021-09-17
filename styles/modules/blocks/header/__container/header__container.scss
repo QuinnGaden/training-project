@@ -1,5 +1,5 @@
-.header__container {
-  max-height: 900px;
+.header__container { 
+  display: flex; 
   position: relative;
   justify-self: end;
   grid-column: 1/2;
