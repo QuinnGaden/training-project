@@ -1,7 +1,4 @@
 .footer {
-  display: flex;
-  flex-direction: column;  
-  background-color: #0A0A0A;
-  align-items: center;
-  justify-content: center;
+  @include flexCenterColumn  ();  
+  background-color: $footerBackgroundColor;  
 }

@@ -3,6 +3,8 @@
 @import url(../vendor/fonts/fonts.css);
 // veriables
 @import '../styles/modules/veriables.scss';
+// mixins
+@import '../styles/modules/mixins.scss';
 /* page */
 @import '../styles/modules/blocks/page/page.scss';
 @import '../styles/modules/blocks/page/__section/page__section.scss';

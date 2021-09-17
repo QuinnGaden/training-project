@@ -1,8 +1,5 @@
 .menu__items {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  @include flexCenterColumn  ();  
   padding: 0;
   margin: 0;
   list-style-type: none;
