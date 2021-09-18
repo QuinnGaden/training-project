@@ -1,0 +1,15 @@
+.about__animation_type_fade-in-left {  
+  animation: fadeInLeft 1s ease-out;  
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;    
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;    
+    transform: translate3d(0, 0, 0);
+  }
+}

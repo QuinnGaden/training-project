@@ -1,0 +1,11 @@
+.footer__checkbox {  
+  position: absolute;
+  appearance: none;
+  
+}
+
+.footer__checkbox:checked + .footer__visible-checkbox {
+  background-image: url(../image/footer__cheked-white.svg);  
+  background-position: center;
+  background-repeat: no-repeat;
+}

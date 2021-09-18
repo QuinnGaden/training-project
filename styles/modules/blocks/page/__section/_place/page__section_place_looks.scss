@@ -1,0 +1,15 @@
+.page__section_place_looks {
+  padding: 80px 20px 80px 20px;
+}
+
+@media (max-width: 768px) {
+  .page__section_place_looks {
+    padding: 80px 20px 60px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page__section_place_looks {
+    padding: 40px 20px 40px 20px;
+  }
+}

@@ -1,0 +1,23 @@
+.footer__input {
+  font-family: $fontFamily;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 12px 24px;
+  border: 0.5px solid rgba(255, 255, 255, .5);
+  background: #0A0A0A;
+  width: 592px;
+  height: 48px;
+  color: $secondFontColor; 
+}
+
+@media (max-width: 768px) {
+  .footer__input {
+    max-width: 378px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__input {
+    max-width: 280px;
+  }
+}

@@ -1,0 +1,39 @@
+.header__menubtn {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  width: 237px;
+  height: 48px;
+  border: none;
+  background-color: transparent;  
+  position: absolute;
+  left: 1.4%;
+  top: 2.4%;
+  cursor: pointer;
+  align-items: center;
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #0A0A0A;  
+}
+
+@media (max-width: 768px) {
+  .header__menubtn {
+    left: 2.5%;
+    top: 3%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__menubtn {
+    left: 2.7%;
+    top: 4.1%;
+    height: 24px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

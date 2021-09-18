@@ -1,0 +1,14 @@
+.menu__item {
+  margin: 0;
+  padding: 0 0 80px 0;
+}
+
+.menu__item:last-child {
+  padding: 0;
+}
+
+@media (max-width: 320px) {
+  .menu__item {
+    padding: 0 0 40px 0;
+  }
+}

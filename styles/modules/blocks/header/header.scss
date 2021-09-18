@@ -1,0 +1,14 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: max-content;
+  position: relative;  
+  align-items: center;  
+  background-color: $headerBackgroundColor;
+}
+
+@media (max-width: 500px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+}

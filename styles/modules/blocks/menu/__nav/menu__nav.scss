@@ -1,0 +1,12 @@
+.menu__nav {
+  background-color: #000000;
+  box-sizing: border-box;
+  padding: 313px 20px 265px;
+  
+}
+
+@media (max-width: 320px) {
+  .menu__nav {
+    padding: 116px 0 92px;
+  }
+}

@@ -1,0 +1,22 @@
+.footer__button {
+  font-family: $fontFamily;
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  border: none;
+  width: 108px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.footer__button:not([disabled]):hover {
+  background: #0A0A0A;
+  color: #FFFFFF;  
+}
+
+@media (max-width: 500px) {
+  .footer__button {
+    height: 44px;    
+    width: 280px;
+  }
+}

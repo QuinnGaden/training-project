@@ -1,0 +1,20 @@
+.footer__container { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0 0 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    max-width: 486px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__container {
+    flex-direction: column;
+    max-width: 280px;
+  }
+}

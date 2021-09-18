@@ -1,0 +1,13 @@
+.menu__items {
+  @include flexCenterColumn  ();  
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 440px;
+}
+
+@media (max-width: 320px) {
+  .menu__items {
+    width: 320px;
+  }
+}

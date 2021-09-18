@@ -1,0 +1,19 @@
+.header__image {  
+  max-width: 700px;
+  max-height: 934px; 
+  object-fit: cover;   
+}
+
+@media (max-width: 768px) {
+  .header__image {
+    max-width: 486px;
+    height: 646px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__image {
+    max-width: 320px;
+    max-height: 426px;    
+  }
+}

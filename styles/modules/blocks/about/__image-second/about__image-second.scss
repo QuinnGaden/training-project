@@ -1,0 +1,24 @@
+.about__image-second {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  max-width: 618px;
+}
+
+@media (max-width: 960px) {
+  .about__image-second  {
+    max-width: 400px;
+    margin: 11% 0 0 0;    
+  }
+}
+
+@media (max-width: 900px) {
+  .about__image-second  {
+    max-width: 304px;      
+  }
+}
+
+@media (max-width: 500px) {
+  .about__image-second  {
+    margin: 40px 0 20px 0;  
+  }
+}

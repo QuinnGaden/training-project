@@ -1,0 +1,26 @@
+.footer__text {
+  margin: 0;
+  padding: 0 0 0 30px;
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: $secondFontColor;
+  max-width: 668px;
+  display: flex;  
+}
+
+@media (max-width: 768px) {
+  .footer__text {
+    max-width: 454px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__text {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 248px;
+  }
+}

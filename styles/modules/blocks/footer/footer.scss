@@ -1,0 +1,4 @@
+.footer {
+  @include flexCenterColumn  ();  
+  background-color: $footerBackgroundColor;  
+}
